@@ -1,0 +1,13 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+
+/* Custom CSS */
+
+/* End Custom CSS */
+
+/* purgecss start ignore */
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
