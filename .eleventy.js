@@ -30,7 +30,18 @@ module.exports = function (eleventyConfig) {
             return minified;
         }
 
-
         return content;
     });
+
+    return {
+        templateFormats: [
+            "md",
+            "njk",
+            "html"
+        ],
+
+        markdownTemplateEngine: "njk",
+        htmlTemplateEngine: "njk",
+        dataTemplateEngine: "njk",
+    }
 };

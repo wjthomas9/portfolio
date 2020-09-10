@@ -1,0 +1,12 @@
+---
+layout: default.njk
+---
+
+<div>
+  <div class="m-auto px-12 py-24 md:px-0 md:w-3/4 lg:w-7/12 leading-relaxed">
+    <span class="tracking-widest text-gray-600">{{ org }}</span>
+    <h1 class="font-black text-6xl mb-4 tracking-wide">{{ title }}</h1>
+    <p class="text-2xl leading-relaxed">{{ summary }}</p>
+    {{ content | safe }}
+  </div>
+</div
