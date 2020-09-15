@@ -3,15 +3,29 @@ title: VirtualTOUCH
 org: BUNN
 challenge: Quickly prototype and bring to market a contact-less solution for dispensing beverages in order to maintain a competitive offering.
 role: Lead UX, UI design, and development of mobile web companion app to provide a touchless experience for dispensing a beverage.
+cover: /img/vt-cover-2.jpg
 date: 2018-05-01
 layout: project.njk
 ---
 
-In a close collaboration with our equipment engineering team, my team prototyped and delivered a new, contact-less solution that made it possible to dispense a beverage using a personal cell phone. This was especially critical to innovate during a time when consumers are less likely to interact with interfaces that are frequently touched by others.
+<div class="relative py-12">
+    <img src="/img/vt-cover-2.jpg" alt="" class="w-full relative">
+    <div class="absolute bottom-0 left-0 -ml-12 -mb-20 w-3/5 md:w-1/2 md:-ml-24">
+        <img src="/img/vt-iphone-1.png" alt="VirtualTOUCH iPhone" class="block w-full">
+    </div>
+</div>
 
-<figure>
-    <img src="/img/vt-cover-2.jpg" alt="BUNN VirtualTOUCH" />
-</figure>
+## Challenge
+
+{{ challenge }}
+
+## My Role
+
+{{ role }}
+
+## Details
+
+In a close collaboration with our equipment engineering team, my team prototyped and delivered a new, contact-less solution that made it possible to dispense a beverage using a personal cell phone. This was especially critical to innovate during a time when consumers are less likely to interact with interfaces that are frequently touched by others.
 
 We determined that the quickest, no-fuss way for a user to begin the experience on their phone was via a QR code. I was skeptical at first to employ the user of a QR code, given their confusing nature and history, especially here in the US. However, we kept coming back to it given the contraints of the challenge to get a solution to market quickly that enabled a consumer could just walk up and begin using the new experience.
 
