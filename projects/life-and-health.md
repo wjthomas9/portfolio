@@ -8,6 +8,9 @@ date: 2018-05-01
 layout: project.njk
 ---
 
+<!-- {% import "imageWithModal.njk" as imageWithModal %} -->
+{% import "imageWithCallout.njk" as imageWithCallout %}
+
 <figure class="py-8">
     <img src="{{ cover }}" alt="" class="block w-full mb-8">
 </figure>
@@ -29,42 +32,12 @@ I took over the project in its early stages. Right away, I knew the platform nee
 ### Some before and afters
 
 <div class="pt-20">
-    <figure class="relative pt-8">
-        <img src="/img/lhn-groups-before-1.jpg" alt="LHN screenshot" class="relative lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300" />
-        <div class="absolute top-0 left-0 right-0 text-center -mt-8">
-            <div class="px-12 py-4 bg-pink-700 text-white font-bold uppercase inline-block rounded-lg leading-none tracking-wider">Before <br><span class="text-sm uppercase opacity-75 font-normal">Login</span></div>
-        </div>
-    </figure>
-    <figure class="relative pt-8">
-        <img src="/img/lhn-groups-after-1.jpg" alt="LHN screenshot" class="relative lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300" />
-        <div class="absolute top-0 left-0 right-0 text-center -mt-8">
-            <div class="px-12 py-4 bg-pink-700 text-white font-bold uppercase inline-block rounded-lg leading-none tracking-wider">After <br><span class="text-sm uppercase opacity-75 font-normal">Login</span></div>
-        </div>
-    </figure>
-    <figure class="relative pt-8">
-        <img src="/img/lhn-groups-before-2.jpg" alt="LHN screenshot" class="relative lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300" />
-        <div class="absolute top-0 left-0 right-0 text-center -mt-8">
-            <div class="px-12 py-4 bg-pink-700 text-white font-bold uppercase inline-block rounded-lg leading-none tracking-wider">Before <br><span class="text-sm uppercase opacity-75 font-normal">Dashboard</span></div>
-        </div>
-    </figure>
-    <figure class="relative pt-8">
-        <img src="/img/lhn-groups-after-2.jpg" alt="LHN screenshot" class="relative lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300" />
-        <div class="absolute top-0 left-0 right-0 text-center -mt-8">
-            <div class="px-12 py-4 bg-pink-700 text-white font-bold uppercase inline-block rounded-lg leading-none tracking-wider">After <br><span class="text-sm uppercase opacity-75 font-normal">Dashboard</span></div>
-        </div>
-    </figure>
-    <figure class="relative pt-8">
-        <img src="/img/lhn-groups-before-3.jpg" alt="LHN screenshot" class="relative lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300" />
-        <div class="absolute top-0 left-0 right-0 text-center -mt-8">
-            <div class="px-12 py-4 bg-pink-700 text-white font-bold uppercase inline-block rounded-lg leading-none tracking-wider">Before <br><span class="text-sm uppercase opacity-75 font-normal">Workshop</span></div>
-        </div>
-    </figure>
-    <figure class="relative pt-8">
-        <img src="/img/lhn-groups-after-3.jpg" alt="LHN screenshot" class="relative lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300" />
-        <div class="absolute top-0 left-0 right-0 text-center -mt-8">
-            <div class="px-12 py-4 bg-pink-700 text-white font-bold uppercase inline-block rounded-lg leading-none tracking-wider">After <br><span class="text-sm uppercase opacity-75 font-normal">Workshop</span></div>
-        </div>
-    </figure>
+{{ imageWithCallout.imageWithCallout('/img/lhn-groups-before-1.jpg', 'LHN screenshot', 'Before (Login)', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300') }}
+{{ imageWithCallout.imageWithCallout('/img/lhn-groups-after-1.jpg', 'LHN screenshot', 'After (Login)', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300') }}
+{{ imageWithCallout.imageWithCallout('/img/lhn-groups-before-2.jpg', 'LHN screenshot', 'Before (Dashboard)', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300') }}
+{{ imageWithCallout.imageWithCallout('/img/lhn-groups-after-2.jpg', 'LHN screenshot', 'After (Dashboard)', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300') }}
+{{ imageWithCallout.imageWithCallout('/img/lhn-groups-before-3.jpg', 'LHN screenshot', 'Before (Workshop)', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300') }}
+{{ imageWithCallout.imageWithCallout('/img/lhn-groups-after-3.jpg', 'LHN screenshot', 'After (Workshop)', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300') }}
 </div>
 
 By taking a componentized approach to designing interface elements, I was able to deliver consistent visual language for the online experience. I tested the concepts with various customers to get feedback on things like onboarding, creating workshops, purchasing materials and getting support.
@@ -73,12 +46,10 @@ By taking a componentized approach to designing interface elements, I was able t
 
 Beginning with the call to action on their current marketing site, I prototyped a new onboarding experience to test first.
 
-<figure>
-    <img src="/img/lhn-groups-flow-1.jpg" alt="LHN screenshot" class="relative block w-full" />
-</figure>
+{{ imageWithCallout.imageWithCallout('/img/lhn-groups-flow-1.jpg', 'LHN screenshot', 'Onboarding flow') }}
 
-<figure>
-    <img src="/img/lhn-groups-onboarding-prototype.jpg" alt="LHN screenshot" class="relative lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300" />
-</figure>
+{{ imageWithCallout.imageWithCallout('/img/lhn-groups-onboarding-prototype.jpg', 'LHN screenshot', 'Onboarding prototype', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300') }}
 
-From there, I continued to tackle other essential parts of the application, testing with a couple customers along the way.
+From there, we continued to design additonal portions of the application with prioirty on the most-important features. We tested each iteration with a couple customers along the way over shared video calls. We eventually worked our way through all major features of the application.
+
+<!-- {{ imageWithModal.imageWithModal('https://picsum.photos/640/480') | safe }}  -->
