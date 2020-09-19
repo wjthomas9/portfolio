@@ -9,7 +9,7 @@ layout: project.njk
 ---
 
 <div class="py-12">
-    <img src="/img/vt-cover-3.jpg" alt="" class="w-full">
+    <img src="/img/vt-cover-3.jpg" alt="VirtualTOUCH" class="w-full">
 </div>
 
 ## Challenge
