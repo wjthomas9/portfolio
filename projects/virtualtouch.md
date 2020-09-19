@@ -8,11 +8,8 @@ date: 2018-05-01
 layout: project.njk
 ---
 
-<div class="relative py-12">
-    <img src="/img/vt-cover-2.jpg" alt="" class="w-full relative">
-    <div class="absolute bottom-0 left-0 -ml-12 -mb-20 w-3/5 md:w-1/2 md:-ml-24">
-        <img src="/img/vt-iphone-1.png" alt="VirtualTOUCH iPhone" class="block w-full">
-    </div>
+<div class="py-12">
+    <img src="/img/vt-cover-3.jpg" alt="" class="w-full">
 </div>
 
 ## Challenge
