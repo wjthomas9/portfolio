@@ -5,12 +5,7 @@ challenge: Quickly prototype and bring to market a contact-less solution for dis
 role: Lead UX, UI design, and development of mobile web companion app to provide a touchless experience for dispensing a beverage.
 cover: /img/vt-cover-2.jpg
 date: 2018-05-01
-layout: project.njk
 ---
-
-<div class="py-12">
-    <img src="/img/vt-cover-3.jpg" alt="VirtualTOUCH" class="w-full">
-</div>
 
 ## Challenge
 

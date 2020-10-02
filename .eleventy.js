@@ -16,6 +16,19 @@ module.exports = function (eleventyConfig) {
         return String(Date.now());
     });
 
+    eleventyConfig.addPairedShortcode("imageFigure", function(content, imageUrl, altText, imageClass='block w-full') {
+        return `<figure class="relative py-8">
+<img src="${imageUrl}" alt="${altText}" class="relative ${imageClass}" />
+${content}
+</figure>`;
+    });
+
+    eleventyConfig.addShortcode("imageCallout", function(calloutText) {
+        return `<div class="absolute top-0 left-0 right-0 text-center -mt-8">
+<div class="px-12 py-4 bg-pink-700 text-white border-2 border-white font-bold uppercase inline-block rounded-lg leading-none tracking-wider">${calloutText}</div>
+</div>`;
+    });
+
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
         if (
             process.env.ELEVENTY_PRODUCTION &&

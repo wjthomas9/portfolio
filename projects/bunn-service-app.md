@@ -5,12 +5,7 @@ challenge: Prototype an app concept that would make the process creating an inve
 role: Lead UX, UI design, and development of mobile web prototype and demonstrated for a customer
 cover: /img/service-cover-2.png
 date: 2018-05-01
-layout: project.njk
 ---
-
-<figure class="py-8">
-    <img src="{{ cover }}" alt="" class="block mx-auto">
-</figure>
 
 ## Challenge
 
