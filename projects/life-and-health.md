@@ -21,6 +21,11 @@ Life and Health Network (LHN) is a non-profit organization that offers online co
 
 I took over the project in its early stages. Right away, I knew the platform needed some thoughtful design and aesthetic from the start. I proposed a new visual direction for the application, which eventually grew into a fully new design language for the entire experience.
 
+* UX/UI Design
+* Frontend Development
+* CMS Integration & Custom plugin development
+* Customer Experience consulting
+
 ### Some before and afters
 
 <div class="pt-20">
@@ -107,5 +112,9 @@ For the customer support capability, I recommended [Intercom](https://www.interc
 * A simple, omni-present support channel for any questions or help
 
 {% imageFigure '/img/lhn-groups-intercom-1.jpg', 'LHN styleguide', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300' %}
+{% imageCallout 'Intercom Customer Support Channel' %}
+{% endimageFigure %}
+
+{% imageFigure '/img/lhn-groups-intercom-2.jpg', 'LHN styleguide', 'lg:max-w-none lg:w-1.5x lg:-ml-1/4 xl:w-2x xl:-ml-1/2 border border-gray-300' %}
 {% imageCallout 'Intercom Customer Support Channel' %}
 {% endimageFigure %}
